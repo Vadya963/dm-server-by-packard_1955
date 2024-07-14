@@ -80,52 +80,52 @@ setPlayerModel( playerid, skinid.tointeger() );
 return 1;
 } 
 vehicleColor <- [
-    [154, 154, 154, "Ледяной Белый"],
-    [143, 137, 124, "Кремовый"],
-    [112, 104, 89, "Светло-Серый"],
-    [79, 72, 65, "Серый"],
-    [120, 111, 68, "Магнолия"],
-    [121, 113, 31, "Желтый"],
-    [98, 26, 21, "Розовый"],
-    [66, 0, 0, "Бордовый"],
-    [29, 4, 0, "Светло-Коричневый"],
-    [15, 32, 24, "Зеленый"],
-    [80, 80, 80, "Серебристый"],
-    [83, 104, 80, "Фенхелевый"],
-    [1, 17, 13, "Изумрудный"],
-    [71, 91, 91, "Шотландский Туман"],
-    [20, 33, 39, "Темный Аквамарин"],
-    [4, 4, 4, "Черный Скаледо"],
-    [57, 49, 29, "Хаки"],
-    [51, 22, 8, "Рыжий"],
-    [2, 5, 19, "Индиговая Ноч"],
-    [18, 44, 69, "Лазурно-Голубой"],
-    [132, 112, 78, "бледное лицо"],
-    [145, 114, 33, "Золотистый"],
-    [97, 46, 10, "Шоколадный"],
-    [70, 128, 95, "Мятный Зеленый"],
-    [27, 76, 65, "Нефритовый Зеленый"],
-    [57, 84, 37, "Лайм"],
-    [73, 75, 33, "Ивовый Зеленый"],
-    [47, 95, 106, "Ярко-Голубой"],
-    [4, 15, 20, "Съерра"],
-    [132, 90, 103, "Нежно-Розовый"],
-    [90, 28, 38, "Фуксия"],
-    [97, 35, 58, "Розовый Денби"],
-    [102, 70, 18, "Темно-Золотой"],
-    [74, 43, 8, "Золотой"],
-    [35, 22, 8, "Красное Дерево"],
-    [157, 111, 68, "Бежевый"],
-    [125, 0, 0, "Вишневый"],
-    [74, 43, 34, "Сладкий Шоколад"],
-    [78, 132, 129, "Бюрезовый"],
-    [17, 1, 14, "Черная смородина"]
+    [154, 154, 154, "Р›РµРґСЏРЅРѕР№ Р‘РµР»С‹Р№"],
+    [143, 137, 124, "РљСЂРµРјРѕРІС‹Р№"],
+    [112, 104, 89, "РЎРІРµС‚Р»Рѕ-РЎРµСЂС‹Р№"],
+    [79, 72, 65, "РЎРµСЂС‹Р№"],
+    [120, 111, 68, "РњР°РіРЅРѕР»РёСЏ"],
+    [121, 113, 31, "Р–РµР»С‚С‹Р№"],
+    [98, 26, 21, "Р РѕР·РѕРІС‹Р№"],
+    [66, 0, 0, "Р‘РѕСЂРґРѕРІС‹Р№"],
+    [29, 4, 0, "РЎРІРµС‚Р»Рѕ-РљРѕСЂРёС‡РЅРµРІС‹Р№"],
+    [15, 32, 24, "Р—РµР»РµРЅС‹Р№"],
+    [80, 80, 80, "РЎРµСЂРµР±СЂРёСЃС‚С‹Р№"],
+    [83, 104, 80, "Р¤РµРЅС…РµР»РµРІС‹Р№"],
+    [1, 17, 13, "РР·СѓРјСЂСѓРґРЅС‹Р№"],
+    [71, 91, 91, "РЁРѕС‚Р»Р°РЅРґСЃРєРёР№ РўСѓРјР°РЅ"],
+    [20, 33, 39, "РўРµРјРЅС‹Р№ РђРєРІР°РјР°СЂРёРЅ"],
+    [4, 4, 4, "Р§РµСЂРЅС‹Р№ РЎРєР°Р»РµРґРѕ"],
+    [57, 49, 29, "РҐР°РєРё"],
+    [51, 22, 8, "Р С‹Р¶РёР№"],
+    [2, 5, 19, "РРЅРґРёРіРѕРІР°СЏ РќРѕС‡"],
+    [18, 44, 69, "Р›Р°Р·СѓСЂРЅРѕ-Р“РѕР»СѓР±РѕР№"],
+    [132, 112, 78, "Р±Р»РµРґРЅРѕРµ Р»РёС†Рѕ"],
+    [145, 114, 33, "Р—РѕР»РѕС‚РёСЃС‚С‹Р№"],
+    [97, 46, 10, "РЁРѕРєРѕР»Р°РґРЅС‹Р№"],
+    [70, 128, 95, "РњСЏС‚РЅС‹Р№ Р—РµР»РµРЅС‹Р№"],
+    [27, 76, 65, "РќРµС„СЂРёС‚РѕРІС‹Р№ Р—РµР»РµРЅС‹Р№"],
+    [57, 84, 37, "Р›Р°Р№Рј"],
+    [73, 75, 33, "РРІРѕРІС‹Р№ Р—РµР»РµРЅС‹Р№"],
+    [47, 95, 106, "РЇСЂРєРѕ-Р“РѕР»СѓР±РѕР№"],
+    [4, 15, 20, "РЎСЉРµСЂСЂР°"],
+    [132, 90, 103, "РќРµР¶РЅРѕ-Р РѕР·РѕРІС‹Р№"],
+    [90, 28, 38, "Р¤СѓРєСЃРёСЏ"],
+    [97, 35, 58, "Р РѕР·РѕРІС‹Р№ Р”РµРЅР±Рё"],
+    [102, 70, 18, "РўРµРјРЅРѕ-Р—РѕР»РѕС‚РѕР№"],
+    [74, 43, 8, "Р—РѕР»РѕС‚РѕР№"],
+    [35, 22, 8, "РљСЂР°СЃРЅРѕРµ Р”РµСЂРµРІРѕ"],
+    [157, 111, 68, "Р‘РµР¶РµРІС‹Р№"],
+    [125, 0, 0, "Р’РёС€РЅРµРІС‹Р№"],
+    [74, 43, 34, "РЎР»Р°РґРєРёР№ РЁРѕРєРѕР»Р°Рґ"],
+    [78, 132, 129, "Р‘СЋСЂРµР·РѕРІС‹Р№"],
+    [17, 1, 14, "Р§РµСЂРЅР°СЏ СЃРјРѕСЂРѕРґРёРЅР°"]
 ];
 getTuneLevel <- [
-    ["Сток"],
-    ["Регулировка"],
-    ["Спортивный тюнинг"],
-    ["Компресор"]
+    ["РЎС‚РѕРє"],
+    ["Р РµРіСѓР»РёСЂРѕРІРєР°"],
+    ["РЎРїРѕСЂС‚РёРІРЅС‹Р№ С‚СЋРЅРёРЅРі"],
+    ["РљРѕРјРїСЂРµСЃРѕСЂ"]
 ];    
 
 function TimerFunc()
@@ -167,12 +167,12 @@ function playerConnect( playerid, name, ip, serial )
 	givePlayerWeapon( playerid, 0, 0 );
 	players[playerid] <- {};
 
-    players[playerid].SpawnCars <- 0; //Спавн авто
+    players[playerid].SpawnCars <- 0; //РЎРїР°РІРЅ Р°РІС‚Рѕ
     players[playerid].Kills <- 0;
 	players[playerid].Killer <- 0;
     //if(isSerialBanned( getPlayerSerial(playerid) )) return kickPlayer( playerid );
     
-	sendPlayerMessageToAll( ""+ getPlayerName( playerid ) + " Подключился к серверу.", 255, 204, 0 );
+	sendPlayerMessageToAll( ""+ getPlayerName( playerid ) + " РџРѕРґРєР»СЋС‡РёР»СЃСЏ Рє СЃРµСЂРІРµСЂСѓ.", 255, 204, 0 );
    // PlayerCheck(playerid);
 	log(""+getPlayerName( playerid )+" end playerConnect");
 	
@@ -183,8 +183,8 @@ addEventHandler( "onPlayerConnect", playerConnect );
 function playerDisconnect( playerid, reason )
 {   clearWhoWas();
     log(""+getPlayerName( playerid )+" start playerDisconnect");
-    delete players[playerid];  // удаляем таблицу
-	sendPlayerMessageToAll( ""+ getPlayerName( playerid ) + " Покинул нас.", 255, 204, 0 );
+    delete players[playerid];  // СѓРґР°Р»СЏРµРј С‚Р°Р±Р»РёС†Сѓ
+	sendPlayerMessageToAll( ""+ getPlayerName( playerid ) + " РџРѕРєРёРЅСѓР» РЅР°СЃ.", 255, 204, 0 );
 	
 	if( isPlayerInVehicle( playerid )) {   
 	local veh = getPlayerVehicle( playerid );
@@ -207,10 +207,10 @@ function playerSpawn( playerid )
 	setPlayerPosition( playerid, -574.163696, 1600.743408, -16.595583 );//16
 	
 	setPlayerHealth( playerid, 720.0 );
-	sendPlayerMessage( playerid, "Мы рады видеть вас " + script );
-	sendPlayerMessage( playerid, "Команды сервера /help ");
-	sendPlayerMessage( playerid, "Взять авто /veh id ");
-	sendPlayerMessage( playerid, "ID Авто можно посмотреть нажав F1 ");
+	sendPlayerMessage( playerid, "РњС‹ СЂР°РґС‹ РІРёРґРµС‚СЊ РІР°СЃ " + script );
+	sendPlayerMessage( playerid, "РљРѕРјР°РЅРґС‹ СЃРµСЂРІРµСЂР° /help ");
+	sendPlayerMessage( playerid, "Р’Р·СЏС‚СЊ Р°РІС‚Рѕ /veh id ");
+	sendPlayerMessage( playerid, "ID РђРІС‚Рѕ РјРѕР¶РЅРѕ РїРѕСЃРјРѕС‚СЂРµС‚СЊ РЅР°Р¶Р°РІ F1 ");
 
 	givePlayerWeapon( playerid, 10, 250 );
 	givePlayerWeapon( playerid, 11, 250 );
@@ -231,12 +231,12 @@ function playerDeath( playerid, killerid )
 {   log(""+getPlayerName( playerid )+" start playerDeath");
 	if( killerid != INVALID_ENTITY_ID )
 		{
-		sendPlayerMessageToAll( "~ " + getPlayerName( playerid ) + " Был убит игроком " + getPlayerName( killerid ) + ".", 255,0,0 );
+		sendPlayerMessageToAll( "~ " + getPlayerName( playerid ) + " Р‘С‹Р» СѓР±РёС‚ РёРіСЂРѕРєРѕРј " + getPlayerName( killerid ) + ".", 255,0,0 );
 	players[playerid].Kills ++;
 	players[killerid].Killer ++;
 	return 1;}
 	else{
-		sendPlayerMessageToAll( "~ " + getPlayerName( playerid ) + " Умер.",255,0,0 );
+		sendPlayerMessageToAll( "~ " + getPlayerName( playerid ) + " РЈРјРµСЂ.",255,0,0 );
     players[playerid].Kills --;
 	return 1;
 	}
@@ -249,8 +249,8 @@ addEventHandler( "onPlayerDeath", playerDeath );
 function playerChat( playerid, chattext )
 {
 log(""+getPlayerName( playerid )+" start playerChat");
-if(chattext.tolower() == "что тут делать" || (chattext.tolower() == "как тачку взять") || (chattext.tolower() == "помогите") || (chattext.tolower() == "где тачки") || (chattext.tolower() == "как в тачку сесть")){
-sendPlayerMessage(playerid,"Команды сервера /help");} 
+if(chattext.tolower() == "С‡С‚Рѕ С‚СѓС‚ РґРµР»Р°С‚СЊ" || (chattext.tolower() == "РєР°Рє С‚Р°С‡РєСѓ РІР·СЏС‚СЊ") || (chattext.tolower() == "РїРѕРјРѕРіРёС‚Рµ") || (chattext.tolower() == "РіРґРµ С‚Р°С‡РєРё") || (chattext.tolower() == "РєР°Рє РІ С‚Р°С‡РєСѓ СЃРµСЃС‚СЊ")){
+sendPlayerMessage(playerid,"РљРѕРјР°РЅРґС‹ СЃРµСЂРІРµСЂР° /help");} 
 log(""+getPlayerName( playerid )+" end playerChat");         
 return 1;
 }
@@ -267,10 +267,10 @@ addCommandHandler( "stats",
 	function( playerid)
 	{//154
 	    log(""+getPlayerName( playerid )+" start cmd stats");  
-	    sendPlayerMessage( playerid, "==Статистика игрока"+getPlayerName( playerid )+"==Статистика игрока!",124,252,0);
-	    sendPlayerMessage( playerid, "Убийств " +players[playerid].Killer+ " !");
-		sendPlayerMessage( playerid, "Смертей " +players[playerid].Kills+ " !");
-		sendPlayerMessage( playerid, "==Статистика игрока "+getPlayerName( playerid )+"==Статистика игрока!",124,252,0);
+	    sendPlayerMessage( playerid, "==РЎС‚Р°С‚РёСЃС‚РёРєР° РёРіСЂРѕРєР°"+getPlayerName( playerid )+"==РЎС‚Р°С‚РёСЃС‚РёРєР° РёРіСЂРѕРєР°!",124,252,0);
+	    sendPlayerMessage( playerid, "РЈР±РёР№СЃС‚РІ " +players[playerid].Killer+ " !");
+		sendPlayerMessage( playerid, "РЎРјРµСЂС‚РµР№ " +players[playerid].Kills+ " !");
+		sendPlayerMessage( playerid, "==РЎС‚Р°С‚РёСЃС‚РёРєР° РёРіСЂРѕРєР° "+getPlayerName( playerid )+"==РЎС‚Р°С‚РёСЃС‚РёРєР° РёРіСЂРѕРєР°!",124,252,0);
 	    log(""+getPlayerName( playerid )+" End cmd stats");
 	return 1;
 	}
@@ -279,11 +279,11 @@ addCommandHandler( "stats",
 addCommandHandler( "randomveh",
 function( playerid )
 {       log(""+getPlayerName( playerid )+" start cmd randomveh");
-        if(players[playerid].SpawnCars == 1) return sendPlayerMessage( playerid, "Авто можно брать 1 раз в 2 минуты",255,0,0);
+        if(players[playerid].SpawnCars == 1) return sendPlayerMessage( playerid, "РђРІС‚Рѕ РјРѕР¶РЅРѕ Р±СЂР°С‚СЊ 1 СЂР°Р· РІ 2 РјРёРЅСѓС‚С‹",255,0,0);
         local pos = getPlayerPosition( playerid );
-		if( isPointInCircle3D( pos[0], pos[1], pos[2],-574.163696, 1600.743408, -16.595583, 10.0 )) return  sendPlayerMessage(playerid,"На спавне игроков нельзя создавать транспорт") && sendPlayerMessage(playerid,"You can't create cars on spawn Somebody is staying beside you",255,0,0); // Change the 20.0 here to change the radius o
+		if( isPointInCircle3D( pos[0], pos[1], pos[2],-574.163696, 1600.743408, -16.595583, 10.0 )) return  sendPlayerMessage(playerid,"РќР° СЃРїР°РІРЅРµ РёРіСЂРѕРєРѕРІ РЅРµР»СЊР·СЏ СЃРѕР·РґР°РІР°С‚СЊ С‚СЂР°РЅСЃРїРѕСЂС‚") && sendPlayerMessage(playerid,"You can't create cars on spawn Somebody is staying beside you",255,0,0); // Change the 20.0 here to change the radius o
         local veh = createVehicle( random(0,53), pos[0] + 2.0, pos[1], pos[2] + 1.0, 0.0, 0.0, 0.0 );
-        sendPlayerMessage(playerid,"Вам выпало авто "+getVehicleModel(veh)+" .",124,252,0 );
+        sendPlayerMessage(playerid,"Р’Р°Рј РІС‹РїР°Р»Рѕ Р°РІС‚Рѕ "+getVehicleModel(veh)+" .",124,252,0 );
         players[playerid].SpawnCars = 1; 
         InvalidCars[veh] = 1;
         log(""+getPlayerName( playerid )+" end cmd randomveh");
@@ -293,15 +293,15 @@ function( playerid )
 );
 function AddVehicleEx(playerid, ...)
 {   log(""+getPlayerName( playerid )+" start cmd vehicle");
-	if(players[playerid].SpawnCars == 1) return sendPlayerMessage( playerid, "Авто можно брать 1 раз в 2 минуты",255,0,0); 
-    if(vargv.len() != 1)  return sendPlayerMessage( playerid, "Используйте /veh id[0-54]");          
+	if(players[playerid].SpawnCars == 1) return sendPlayerMessage( playerid, "РђРІС‚Рѕ РјРѕР¶РЅРѕ Р±СЂР°С‚СЊ 1 СЂР°Р· РІ 2 РјРёРЅСѓС‚С‹",255,0,0); 
+    if(vargv.len() != 1)  return sendPlayerMessage( playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ /veh id[0-54]");          
 		local id = vargv[0].tostring();
-		if(!isNumeric(id)) return sendPlayerMessage( playerid, "Только цифры",255,0,0 ); 
-		if(id.tointeger() < 0 || id.tointeger() > 54) return sendPlayerMessage( playerid, "[Ошибка] ид авто может быть от 0 до 54",255,0,0);
-		if(id.tointeger() == 2 || id.tointeger() == 49 ) return sendPlayerMessage( playerid, "[Ошибка]Запрещеный транспорт 2,49",255,0,0);
+		if(!isNumeric(id)) return sendPlayerMessage( playerid, "РўРѕР»СЊРєРѕ С†РёС„СЂС‹",255,0,0 ); 
+		if(id.tointeger() < 0 || id.tointeger() > 54) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°] РёРґ Р°РІС‚Рѕ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕС‚ 0 РґРѕ 54",255,0,0);
+		if(id.tointeger() == 2 || id.tointeger() == 49 ) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°]Р—Р°РїСЂРµС‰РµРЅС‹Р№ С‚СЂР°РЅСЃРїРѕСЂС‚ 2,49",255,0,0);
 	
 		local pos = getPlayerPosition( playerid );
-	    if( isPointInCircle3D( pos[0], pos[1], pos[2],-574.163696, 1600.743408, -16.595583, 10.0 )) return  sendPlayerMessage(playerid,"На спавне игроков нельзя создавать транспорт") && sendPlayerMessage(playerid,"You can't create cars on spawn Somebody is staying beside you",255,0,0);
+	    if( isPointInCircle3D( pos[0], pos[1], pos[2],-574.163696, 1600.743408, -16.595583, 10.0 )) return  sendPlayerMessage(playerid,"РќР° СЃРїР°РІРЅРµ РёРіСЂРѕРєРѕРІ РЅРµР»СЊР·СЏ СЃРѕР·РґР°РІР°С‚СЊ С‚СЂР°РЅСЃРїРѕСЂС‚") && sendPlayerMessage(playerid,"You can't create cars on spawn Somebody is staying beside you",255,0,0);
 		local vehicle = createVehicle( id.tointeger(), pos[0] + 2.0, pos[1], pos[2] + 1.0, 0.0, 0.0, 0.0 );
 		local colour = getVehicleColour ( vehicle );
 		players[playerid].SpawnCars = 1; 
@@ -309,7 +309,7 @@ function AddVehicleEx(playerid, ...)
 		InvalidCars[vehicle] = 1;
 		log ( "Primary Colour: "+colour[0]+", "+colour[1]+", "+colour[2] );
 		log ( "Secondary Colour: "+colour[3]+", "+colour[4]+", "+colour[5] );
-		sendPlayerMessage( playerid, "Вы взяли авто ID : "+ id.tointeger() +"!",124,252,0);
+		sendPlayerMessage( playerid, "Р’С‹ РІР·СЏР»Рё Р°РІС‚Рѕ ID : "+ id.tointeger() +"!",124,252,0);
 		setVehicleColour ( vehicle, 255, 0, 255, 0, 255, 255 );
         log(""+getPlayerName( playerid )+" end cmd vehicle");
 		 return 1;
@@ -330,14 +330,14 @@ addCommandHandler( "tune",
 	function( playerid, ... )
 	{   
 	    log(""+getPlayerName( playerid )+" start cmd tune");
-	    if(vargv.len() != 1)  return sendPlayerMessage( playerid, "Используйте /tune [0-3] (0 Снять весь тюнинг)");
-		if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Вы должны быть в машине!",255,0,0); 
+	    if(vargv.len() != 1)  return sendPlayerMessage( playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ /tune [0-3] (0 РЎРЅСЏС‚СЊ РІРµСЃСЊ С‚СЋРЅРёРЅРі)");
+		if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ РјР°С€РёРЅРµ!",255,0,0); 
 		local tune = vargv[0].tostring();
-		if(!isNumeric(tune)) return sendPlayerMessage( playerid, "Только цифры",255,0,0 ); 
-		if(tune.tointeger() < 0 || tune.tointeger() > 3) return sendPlayerMessage( playerid, "[Ошибка] Номер тюнинга может быть от 0 до 3",255,0,0);	
+		if(!isNumeric(tune)) return sendPlayerMessage( playerid, "РўРѕР»СЊРєРѕ С†РёС„СЂС‹",255,0,0 ); 
+		if(tune.tointeger() < 0 || tune.tointeger() > 3) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°] РќРѕРјРµСЂ С‚СЋРЅРёРЅРіР° РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕС‚ 0 РґРѕ 3",255,0,0);	
 		local vehicleid = getPlayerVehicle( playerid );
 		setVehicleTuningTable( vehicleid, tune.tointeger() );
-	    sendPlayerMessage( playerid, "Вы установили уровень тюнинга на авто: "+getTuneLevel[tune.tointeger()][0] +" Номер "+tune.tointeger()+"!",124,252,0);
+	    sendPlayerMessage( playerid, "Р’С‹ СѓСЃС‚Р°РЅРѕРІРёР»Рё СѓСЂРѕРІРµРЅСЊ С‚СЋРЅРёРЅРіР° РЅР° Р°РІС‚Рѕ: "+getTuneLevel[tune.tointeger()][0] +" РќРѕРјРµСЂ "+tune.tointeger()+"!",124,252,0);
 	    log(""+getPlayerName( playerid )+" end cmd tune");
 	    return 1;
 	}
@@ -346,15 +346,15 @@ addCommandHandler( "wheels",
 function( playerid, ... )
 	{
 	    log(""+getPlayerName( playerid )+" start cmd wheels");
-		if(vargv.len() != 1)  return sendPlayerMessage( playerid, "Используйте /wheels [0-18] ");
-		if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Вы должны быть в машине!",255,0,0); 
+		if(vargv.len() != 1)  return sendPlayerMessage( playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ /wheels [0-18] ");
+		if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ РјР°С€РёРЅРµ!",255,0,0); 
 		local w1 = vargv[0].tostring();
-		if(!isNumeric(w1)) return sendPlayerMessage( playerid, "Только цифры",255,0,0 ); 
-		if(w1.tointeger() < 0 || w1.tointeger() > 18) return sendPlayerMessage( playerid, "[Ошибка] Номер колёс может быть от 0 до 18",255,0,0);
+		if(!isNumeric(w1)) return sendPlayerMessage( playerid, "РўРѕР»СЊРєРѕ С†РёС„СЂС‹",255,0,0 ); 
+		if(w1.tointeger() < 0 || w1.tointeger() > 18) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°] РќРѕРјРµСЂ РєРѕР»С‘СЃ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕС‚ 0 РґРѕ 18",255,0,0);
 		local vehicleid = getPlayerVehicle( playerid );
 		setVehicleWheelTexture( vehicleid, 0, w1.tointeger() );
 		setVehicleWheelTexture( vehicleid, 1, w1.tointeger() );
-		sendPlayerMessage( playerid, "Вы сменили колёса на: "+ w1.tointeger() +"!",124,252,0);
+		sendPlayerMessage( playerid, "Р’С‹ СЃРјРµРЅРёР»Рё РєРѕР»С‘СЃР° РЅР°: "+ w1.tointeger() +"!",124,252,0);
 	    log(""+getPlayerName( playerid )+" end cmd wheels");
 	    return 1;
 	}
@@ -363,9 +363,9 @@ addCommandHandler( "wash",
 function( playerid )
 {
     log(""+getPlayerName( playerid )+" start cmd Wash");
-    if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Вы должны быть в машине!");
+    if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ РјР°С€РёРЅРµ!");
     setVehicleDirtLevel( getPlayerVehicle( playerid ), 0.0 );  
-    sendPlayerMessage( playerid, "Вы помыли авто!");
+    sendPlayerMessage( playerid, "Р’С‹ РїРѕРјС‹Р»Рё Р°РІС‚Рѕ!");
     log(""+getPlayerName( playerid )+" end cmd wash");
     return 1;
 	}
@@ -374,9 +374,9 @@ addCommandHandler( "dirty",
 function( playerid )
 {   
     log(""+getPlayerName( playerid )+" start cmd dirty");
-    if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Вы должны быть в машине!");
+    if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ РјР°С€РёРЅРµ!");
     setVehicleDirtLevel( getPlayerVehicle( playerid ), 3.0 );  
-    sendPlayerMessage( playerid, "Запачкали своё авто!");
+    sendPlayerMessage( playerid, "Р—Р°РїР°С‡РєР°Р»Рё СЃРІРѕС‘ Р°РІС‚Рѕ!");
     log(""+getPlayerName( playerid )+" end cmd dirty");
     return 1;
 }
@@ -385,16 +385,16 @@ addCommandHandler( "kill",
 	function( playerid )
 	{
     setPlayerHealth( playerid, 0.0 );
-    sendPlayerMessage( playerid, "Вы убили себя!");
+    sendPlayerMessage( playerid, "Р’С‹ СѓР±РёР»Рё СЃРµР±СЏ!");
 	return 1;
 	}
 );
 function fixCar(playerid)
 {
     log(""+getPlayerName( playerid )+" start cmd fixcar");
-    if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Вы должны быть в машине!"); 
+    if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ РјР°С€РёРЅРµ!"); 
 	repairVehicle( getPlayerVehicle( playerid ) );
-	sendPlayerMessage( playerid, "Вы починили авто!");
+	sendPlayerMessage( playerid, "Р’С‹ РїРѕС‡РёРЅРёР»Рё Р°РІС‚Рѕ!");
     log(""+getPlayerName( playerid )+" end cmd fixcar");
 	return 1;
 }
@@ -411,7 +411,7 @@ addCommandHandler( "heal",
 	function( playerid )
 	{
     setPlayerHealth( playerid, 720.0 );
-	sendPlayerMessage( playerid, "Вы вылечились!");
+	sendPlayerMessage( playerid, "Р’С‹ РІС‹Р»РµС‡РёР»РёСЃСЊ!");
 	return 1;
 	}
 );
@@ -421,7 +421,7 @@ addCommandHandler( "hp",
 	log(""+getPlayerName( playerid )+"start cmd hp");
     setPlayerHealth( playerid, 720.0 );
 	fixCar(playerid);
-	sendPlayerMessage( playerid, "Вы вылечились/починили авто!");
+	sendPlayerMessage( playerid, "Р’С‹ РІС‹Р»РµС‡РёР»РёСЃСЊ/РїРѕС‡РёРЅРёР»Рё Р°РІС‚Рѕ!");
 	log(""+getPlayerName( playerid )+"end cmd hp");
 	return 1;
 	}
@@ -434,27 +434,27 @@ addCommandHandler( "siren",
 		local vehicle = getPlayerVehicle( playerid );
 		local model = getVehicleModel ( vehicle );
 		setVehicleSirenState( vehicle, !getVehicleSirenState( vehicle ) );
-		sendPlayerMessage( playerid, "Вы вкл/выкл сирену !");
+		sendPlayerMessage( playerid, "Р’С‹ РІРєР»/РІС‹РєР» СЃРёСЂРµРЅСѓ !");
 		log(""+getPlayerName( playerid )+"end cmd siren");
-	//local pos   =      getVehiclePosition( vehicleid ) ; //Записываем координаты авто в переменную.
-    ///local rot   =      getVehicleRotation( vehicleid ) ; //Записываем угол поворота авто в переменную.
+	//local pos   =      getVehiclePosition( vehicleid ) ; //Р—Р°РїРёСЃС‹РІР°РµРј РєРѕРѕСЂРґРёРЅР°С‚С‹ Р°РІС‚Рѕ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ.
+    ///local rot   =      getVehicleRotation( vehicleid ) ; //Р—Р°РїРёСЃС‹РІР°РµРј СѓРіРѕР» РїРѕРІРѕСЂРѕС‚Р° Р°РІС‚Рѕ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ.
 
  
 
-    //setVehiclePosition( vehicleid, pos[ 0 ], pos[ 1 ], pos[ 2 ] + 1.0 ) ; //Подбрасываем авто.
+    //setVehiclePosition( vehicleid, pos[ 0 ], pos[ 1 ], pos[ 2 ] + 1.0 ) ; //РџРѕРґР±СЂР°СЃС‹РІР°РµРј Р°РІС‚Рѕ.
        return 1;
-    //setVehicleRotation( vehicleid, rot[ 0 ], rot[ 1 ], rot[ 2 ] ) ; //Устанавливаем угол поворота авто, который мы записали ранее.
+    //setVehicleRotation( vehicleid, rot[ 0 ], rot[ 1 ], rot[ 2 ] ) ; //РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј СѓРіРѕР» РїРѕРІРѕСЂРѕС‚Р° Р°РІС‚Рѕ, РєРѕС‚РѕСЂС‹Р№ РјС‹ Р·Р°РїРёСЃР°Р»Рё СЂР°РЅРµРµ.
 	}
 );
 addCommandHandler( "flip",
 function( playerid )
 {
-   if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Вы должны быть в машине!");
+   if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ РјР°С€РёРЅРµ!");
    local vehicleid = getPlayerVehicle( playerid );
-   local pos   =      getVehiclePosition( vehicleid ) ; //Записываем координаты авто в переменную.
-   local rot   =      getVehicleRotation( vehicleid ) ; //Записываем угол поворота авто в переменную.
-   setVehiclePosition( vehicleid, pos[ 0 ], pos[ 1 ], pos[ 2 ] + 3.0 ) ; //Подбрасываем авто.
-   setVehicleRotation( vehicleid, rot[ 0 ], rot[ 1 ], rot[ 2 ] ) ; //Устанавливаем угол поворота авто, который мы записали ранее.
+   local pos   =      getVehiclePosition( vehicleid ) ; //Р—Р°РїРёСЃС‹РІР°РµРј РєРѕРѕСЂРґРёРЅР°С‚С‹ Р°РІС‚Рѕ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ.
+   local rot   =      getVehicleRotation( vehicleid ) ; //Р—Р°РїРёСЃС‹РІР°РµРј СѓРіРѕР» РїРѕРІРѕСЂРѕС‚Р° Р°РІС‚Рѕ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ.
+   setVehiclePosition( vehicleid, pos[ 0 ], pos[ 1 ], pos[ 2 ] + 3.0 ) ; //РџРѕРґР±СЂР°СЃС‹РІР°РµРј Р°РІС‚Рѕ.
+   setVehicleRotation( vehicleid, rot[ 0 ], rot[ 1 ], rot[ 2 ] ) ; //РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј СѓРіРѕР» РїРѕРІРѕСЂРѕС‚Р° Р°РІС‚Рѕ, РєРѕС‚РѕСЂС‹Р№ РјС‹ Р·Р°РїРёСЃР°Р»Рё СЂР°РЅРµРµ.
    return 1;
 }
 );
@@ -463,8 +463,8 @@ addCommandHandler( "skin",
 	function( playerid, ...)
 	{//154
 	    log(""+getPlayerName( playerid )+" start cmd skin");
-	    if(vargv.len() != 1)  return sendPlayerMessage( playerid, "Используйте /skin id [0-154] пример /skin 5");
-		if(isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Вам нужно выйти с странспорта!",255,0,0); 
+	    if(vargv.len() != 1)  return sendPlayerMessage( playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ /skin id [0-154] РїСЂРёРјРµСЂ /skin 5");
+		if(isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Р’Р°Рј РЅСѓР¶РЅРѕ РІС‹Р№С‚Рё СЃ СЃС‚СЂР°РЅСЃРїРѕСЂС‚Р°!",255,0,0); 
 		for(local i = 0; i < getMaxPlayers(); i++){
 		if(isPlayerConnected(i)) {
 		if(playerid != i){
@@ -472,19 +472,19 @@ addCommandHandler( "skin",
         local posid = getPlayerPosition(i);
 		if(isPointInCircle3D( posid[0].tofloat(), posid[1].tofloat(), posid[2].tofloat(), pos[0].tofloat(), pos[1].tofloat(), pos[2].tofloat(), 50.0 )) // Change the 20.0 here to change the radius of the message
         { 
-         sendPlayerMessage(playerid,"Рядом с вами кто-то есть."); 
-		 sendPlayerMessage(playerid,"Скин можно менять на растояних от других игроков что бы избежать вылета"); 
+         sendPlayerMessage(playerid,"Р СЏРґРѕРј СЃ РІР°РјРё РєС‚Рѕ-С‚Рѕ РµСЃС‚СЊ."); 
+		 sendPlayerMessage(playerid,"РЎРєРёРЅ РјРѕР¶РЅРѕ РјРµРЅСЏС‚СЊ РЅР° СЂР°СЃС‚РѕСЏРЅРёС… РѕС‚ РґСЂСѓРіРёС… РёРіСЂРѕРєРѕРІ С‡С‚Рѕ Р±С‹ РёР·Р±РµР¶Р°С‚СЊ РІС‹Р»РµС‚Р°"); 
          sendPlayerMessage(playerid,"========================================================================",255,0,0); 
 		 sendPlayerMessage(playerid,"You can change your skin only on distance from other players to avoid kick");		 
 		 return 1;
 		} }}}
 		local skin = vargv[0].tostring();
-		if( !isNumeric(skin)) return sendPlayerMessage( playerid, "Только цифры",255,0,0 ); 
-		if(skin.tointeger() < 0 || skin.tointeger() > 154) return sendPlayerMessage( playerid, "[Ошибка] Номер скина может быть от 0 до 154",255,0,0);
-		if(skin.tointeger() == 119 || skin.tointeger() == 3) return sendPlayerMessage( playerid, "[Ошибка] Запрещёный скин",255,0,0);
-		if(skin.tointeger() == 11 || skin.tointeger() == 111) return sendPlayerMessage( playerid, "[Ошибка] Запрещёный скин",255,0,0);
+		if( !isNumeric(skin)) return sendPlayerMessage( playerid, "РўРѕР»СЊРєРѕ С†РёС„СЂС‹",255,0,0 ); 
+		if(skin.tointeger() < 0 || skin.tointeger() > 154) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°] РќРѕРјРµСЂ СЃРєРёРЅР° РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕС‚ 0 РґРѕ 154",255,0,0);
+		if(skin.tointeger() == 119 || skin.tointeger() == 3) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°] Р—Р°РїСЂРµС‰С‘РЅС‹Р№ СЃРєРёРЅ",255,0,0);
+		if(skin.tointeger() == 11 || skin.tointeger() == 111) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°] Р—Р°РїСЂРµС‰С‘РЅС‹Р№ СЃРєРёРЅ",255,0,0);
 		SetPlayerSkin( playerid, skin.tointeger() );
-	    sendPlayerMessage( playerid, "Ваш скин изменён на "+skin.tointeger()+"!",124,252,0);
+	    sendPlayerMessage( playerid, "Р’Р°С€ СЃРєРёРЅ РёР·РјРµРЅС‘РЅ РЅР° "+skin.tointeger()+"!",124,252,0);
 	    log(""+getPlayerName( playerid )+" end cmd skin");
 	    return 1;
 	}
@@ -495,10 +495,10 @@ function( playerid )
     log(""+getPlayerName( playerid )+" start cmd randwheels");
     local vehicleid = getPlayerVehicle( playerid );
     local kolesa = (random(0,18));
-    if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Вы должны быть в машине!");
+    if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ РјР°С€РёРЅРµ!");
 	setVehicleWheelTexture( vehicleid, 0, kolesa.tointeger() );
 	setVehicleWheelTexture( vehicleid, 1, kolesa.tointeger() );
-    sendPlayerMessage( playerid, "Вы получили рандомные колёса!");
+    sendPlayerMessage( playerid, "Р’С‹ РїРѕР»СѓС‡РёР»Рё СЂР°РЅРґРѕРјРЅС‹Рµ РєРѕР»С‘СЃР°!");
 	log(""+getPlayerName( playerid )+" end cmd randwheels");
     return 1;
 }
@@ -513,18 +513,18 @@ function( playerid )
         local posid = getPlayerPosition(i);
 		if(isPointInCircle3D( posid[0].tofloat(), posid[1].tofloat(), posid[2].tofloat(), pos[0].tofloat(), pos[1].tofloat(), pos[2].tofloat(), 50.0 )) // Change the 20.0 here to change the radius of the message
         { 
-         sendPlayerMessage(playerid,"Рядом с вами кто-то есть."); 
-		 sendPlayerMessage(playerid,"Скин можно менять на растояних от других игроков что бы избежать вылета"); 
+         sendPlayerMessage(playerid,"Р СЏРґРѕРј СЃ РІР°РјРё РєС‚Рѕ-С‚Рѕ РµСЃС‚СЊ."); 
+		 sendPlayerMessage(playerid,"РЎРєРёРЅ РјРѕР¶РЅРѕ РјРµРЅСЏС‚СЊ РЅР° СЂР°СЃС‚РѕСЏРЅРёС… РѕС‚ РґСЂСѓРіРёС… РёРіСЂРѕРєРѕРІ С‡С‚Рѕ Р±С‹ РёР·Р±РµР¶Р°С‚СЊ РІС‹Р»РµС‚Р°"); 
          return 1;
 		} }}}
 		
     log(""+getPlayerName( playerid )+" start cmd randskin");
-    if(isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Вам нужно выйти с странспорта!",255,0,0); 
+    if(isPlayerInVehicle( playerid ) ) return sendPlayerMessage( playerid, "Р’Р°Рј РЅСѓР¶РЅРѕ РІС‹Р№С‚Рё СЃ СЃС‚СЂР°РЅСЃРїРѕСЂС‚Р°!",255,0,0); 
 	local skin = (random(0,155));
-	if(skin.tointeger() == 119 || skin.tointeger() == 3) return sendPlayerMessage( playerid, "[Ошибка] Попробуйте ещё раз",255,0,0);
-	if(skin.tointeger() == 11 || skin.tointeger() == 111) return sendPlayerMessage( playerid, "[Ошибка] Попробуйте ещё раз",255,0,0);
+	if(skin.tointeger() == 119 || skin.tointeger() == 3) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°] РџРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰С‘ СЂР°Р·",255,0,0);
+	if(skin.tointeger() == 11 || skin.tointeger() == 111) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°] РџРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰С‘ СЂР°Р·",255,0,0);
 	setPlayerModel( playerid, skin.tointeger() );
-    sendPlayerMessage( playerid, "Вы сменили скин!",124,252,0);
+    sendPlayerMessage( playerid, "Р’С‹ СЃРјРµРЅРёР»Рё СЃРєРёРЅ!",124,252,0);
     log(""+getPlayerName( playerid )+" end cmd randskin");
     return 1;
 }
@@ -533,12 +533,12 @@ function( playerid )
 //addCommandHandler( "plate",
 //function( playerid, ... )
 //{
-  //  if(vargv.len() != 1) return sendPlayerMessage(playerid, " Используйте: /plate [TEXT].");
-   // if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage(playerid, " Вы должны быть в авто",255,0,0 );
+  //  if(vargv.len() != 1) return sendPlayerMessage(playerid, " РСЃРїРѕР»СЊР·СѓР№С‚Рµ: /plate [TEXT].");
+   // if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage(playerid, " Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ Р°РІС‚Рѕ",255,0,0 );
     //local plates = vargv[0].tostring();    
     //local vehicleid = getPlayerVehicle( playerid );
     //setVehiclePlateText( vehicleid, plates );
-    //sendPlayerMessage(playerid, " Вы сменили номер вашего авто на "+plates+"",124,252,0);       
+    //sendPlayerMessage(playerid, " Р’С‹ СЃРјРµРЅРёР»Рё РЅРѕРјРµСЂ РІР°С€РµРіРѕ Р°РІС‚Рѕ РЅР° "+plates+"",124,252,0);       
 //}
 //);
 addCommandHandler( "lockp",
@@ -551,18 +551,18 @@ addCommandHandler( "carpass",
 function( playerid )
 {
         log(""+getPlayerName( playerid )+" start cmd carpass");
-        if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage(playerid, " Вы должны быть в авто",255,0,0 );
+        if( !isPlayerInVehicle( playerid ) ) return sendPlayerMessage(playerid, " Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ Р°РІС‚Рѕ",255,0,0 );
         local id = getPlayerVehicle(playerid);
         local col = getVehicleColour(id);
-        sendPlayerMessage( playerid, "=======Документы на авто======",124,252,0);
+        sendPlayerMessage( playerid, "=======Р”РѕРєСѓРјРµРЅС‚С‹ РЅР° Р°РІС‚Рѕ======",124,252,0);
         sendPlayerMessage( playerid, "ID: " + id );
-        sendPlayerMessage( playerid,"Модель: " + getVehicleModel(id) );
-        sendPlayerMessage( playerid,"Номер: " + getVehiclePlateText(id) );
+        sendPlayerMessage( playerid,"РњРѕРґРµР»СЊ: " + getVehicleModel(id) );
+        sendPlayerMessage( playerid,"РќРѕРјРµСЂ: " + getVehiclePlateText(id) );
         if(getVehicleTuningTable(id) == -2) {
-		sendPlayerMessage( playerid, "Уровень тюнинга: Сток ");}else{
-		sendPlayerMessage( playerid, "Уровень тюнинга: " +getTuneLevel[getVehicleTuningTable(id)][0]);}
-		sendPlayerMessage( playerid,"Цвет авто RGB: " + col[0] + "," + col[1] + "," + col[2] + "," + col[3] + "," + col[4] + "," + col[5]);
-		sendPlayerMessage( playerid, "=======Документы на авто======",124,252,0 );
+		sendPlayerMessage( playerid, "РЈСЂРѕРІРµРЅСЊ С‚СЋРЅРёРЅРіР°: РЎС‚РѕРє ");}else{
+		sendPlayerMessage( playerid, "РЈСЂРѕРІРµРЅСЊ С‚СЋРЅРёРЅРіР°: " +getTuneLevel[getVehicleTuningTable(id)][0]);}
+		sendPlayerMessage( playerid,"Р¦РІРµС‚ Р°РІС‚Рѕ RGB: " + col[0] + "," + col[1] + "," + col[2] + "," + col[3] + "," + col[4] + "," + col[5]);
+		sendPlayerMessage( playerid, "=======Р”РѕРєСѓРјРµРЅС‚С‹ РЅР° Р°РІС‚Рѕ======",124,252,0 );
         log(""+getPlayerName( playerid )+" end cmd carpass");
         return 1;
 }
@@ -576,70 +576,70 @@ addCommandHandler( "unlockp",
 addCommandHandler( "tp",
 function( playerid, ... )
 {     log(""+getPlayerName( playerid )+"start cmd tp");
-     if(vargv.len() != 1) return sendPlayerMessage(playerid, "Используйте: /tp название. пример /tp bruski ") &&  sendPlayerMessage(playerid, "Доступные места police,vokzal,bruski,hospital,most,park,drift,port,clementeco");
+     if(vargv.len() != 1) return sendPlayerMessage(playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ: /tp РЅР°Р·РІР°РЅРёРµ. РїСЂРёРјРµСЂ /tp bruski ") &&  sendPlayerMessage(playerid, "Р”РѕСЃС‚СѓРїРЅС‹Рµ РјРµСЃС‚Р° police,vokzal,bruski,hospital,most,park,drift,port,clementeco");
         local id = getPlayerVehicle(playerid);
         
         local place = vargv[0].tostring();
-        if(isNumeric(place)) return sendPlayerMessage(playerid, "Доступные места: /tp police,vokzal,bruski,hospital,most,park,drift,port,clementeco");
+        if(isNumeric(place)) return sendPlayerMessage(playerid, "Р”РѕСЃС‚СѓРїРЅС‹Рµ РјРµСЃС‚Р°: /tp police,vokzal,bruski,hospital,most,park,drift,port,clementeco");
 		
 		if( place == "police" )
         {
         if( isPlayerInVehicle( playerid ) ){setVehiclePosition( id, -364.515076, 792.584412, -19.926001);}
 		else {setPlayerPosition( playerid, -364.515076, 792.584412, -19.926001 );}
-     	sendPlayerMessage(playerid, "Вы телепортировались к зданию полиции ");
-        sendPlayerMessageToAll( "" + getPlayerName( playerid ) + " Телепортировался к зданию полиции /tp police.",255,0,0 );
+     	sendPlayerMessage(playerid, "Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ Рє Р·РґР°РЅРёСЋ РїРѕР»РёС†РёРё ");
+        sendPlayerMessageToAll( "" + getPlayerName( playerid ) + " РўРµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»СЃСЏ Рє Р·РґР°РЅРёСЋ РїРѕР»РёС†РёРё /tp police.",255,0,0 );
 		return 1;
 		}
         else if( place == "vokzal" )
         { 
 		if( isPlayerInVehicle( playerid ) ){setVehiclePosition( id, -574.478882, 1588.583374, -16.374985);}
 		else {setPlayerPosition( playerid, -574.478882, 1588.583374, -16.374985 );}
-        sendPlayerMessage(playerid, "Вы телепортировались на вокзал ");
-        sendPlayerMessageToAll( "" + getPlayerName( playerid ) + " Телепортировался на вокзал /tp vokzal.",255,0,0 );
+        sendPlayerMessage(playerid, "Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ РЅР° РІРѕРєР·Р°Р» ");
+        sendPlayerMessageToAll( "" + getPlayerName( playerid ) + " РўРµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»СЃСЏ РЅР° РІРѕРєР·Р°Р» /tp vokzal.",255,0,0 );
 		return 1;
 		}
         else if( place == "bruski" )
         {  
         if( isPlayerInVehicle( playerid ) ){setVehiclePosition( id, -95.754532, 1728.959961, -19.155062);}
 		else {setPlayerPosition( playerid, -95.754532, 1728.959961, -19.155062 );}
-        sendPlayerMessage(playerid, "Вы телепортировались на свалку бруски ");   
+        sendPlayerMessage(playerid, "Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ РЅР° СЃРІР°Р»РєСѓ Р±СЂСѓСЃРєРё ");   
         return 1;
 		}
         else if( place == "hospital" )
         {
         if( isPlayerInVehicle( playerid ) ){setVehiclePosition( id, -396.278290, 895.201050, -19.924278);}
 		else {setPlayerPosition( playerid, -396.278290, 895.201050, -19.924278 );}  
-	    sendPlayerMessage(playerid, "Вы телепортировались к госпиталю ");
+	    sendPlayerMessage(playerid, "Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ Рє РіРѕСЃРїРёС‚Р°Р»СЋ ");
         }
 		else if( place == "most" )
         {
         if( isPlayerInVehicle( playerid ) ){setVehiclePosition( id, -520.542603, 618.987183, 1.906049);}
 		else {setPlayerPosition( playerid, -520.542603, 618.987183, 1.906049);}  
-		sendPlayerMessage(playerid, "Вы телепортировались на мост");
+		sendPlayerMessage(playerid, "Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ РЅР° РјРѕСЃС‚");
         }
         else if( place == "park" )
         {
         if( isPlayerInVehicle( playerid ) ){setVehiclePosition( id, -330.404266, 241.278366, -4.478771);}
 		else {setPlayerPosition( playerid, -330.404266, 241.278366, -4.478771);}  
-		sendPlayerMessage(playerid, "Вы телепортировались в парк");
+		sendPlayerMessage(playerid, "Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ РІ РїР°СЂРє");
         }
 		else if( place == "drift" )
         {
         if( isPlayerInVehicle( playerid ) ){setVehiclePosition( id, -625.089722, 31.567175, 1.117279);}
 		else {setPlayerPosition( playerid, -625.089722, 31.567175, 1.117279);}  
-		sendPlayerMessage(playerid, "Вы телепортировались на дрифт");
+		sendPlayerMessage(playerid, "Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ РЅР° РґСЂРёС„С‚");
         }
 		else if( place == "port" )
         {
         if( isPlayerInVehicle( playerid ) ){setVehiclePosition( id, -357.145905, -743.169556, -21.526766);}
 		else {setPlayerPosition( playerid, -357.145905, -743.169556, -21.526766);}  
-		sendPlayerMessage(playerid, "Вы телепортировались в порт");
+		sendPlayerMessage(playerid, "Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ РІ РїРѕСЂС‚");
         }
         else if( place == "clementeco" )
         {
         if( isPlayerInVehicle( playerid ) ){setVehiclePosition( id, 40.533566, 1774.925903, -17.647997);}
 		else {setPlayerPosition( playerid, 40.533566, 1774.925903, -17.647997);}  
-		sendPlayerMessage(playerid, "Вы телепортировались на завод");
+		sendPlayerMessage(playerid, "Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ РЅР° Р·Р°РІРѕРґ");
         }
  log(""+getPlayerName( playerid )+"end cmd tp");		
 }
@@ -647,34 +647,34 @@ function( playerid, ... )
 addCommandHandler( "help",
 function( playerid, ... )
 {        log(""+getPlayerName( playerid )+" start cmd help");
-        if(vargv.len() != 1) return sendPlayerMessage(playerid, "Используйте: /help [название]. пример /help player") &&  sendPlayerMessage(playerid, "Доступные название:player [Основные команды],car [Команды для авто],key [Клавиши]");
+        if(vargv.len() != 1) return sendPlayerMessage(playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ: /help [РЅР°Р·РІР°РЅРёРµ]. РїСЂРёРјРµСЂ /help player") &&  sendPlayerMessage(playerid, "Р”РѕСЃС‚СѓРїРЅС‹Рµ РЅР°Р·РІР°РЅРёРµ:player [РћСЃРЅРѕРІРЅС‹Рµ РєРѕРјР°РЅРґС‹],car [РљРѕРјР°РЅРґС‹ РґР»СЏ Р°РІС‚Рѕ],key [РљР»Р°РІРёС€Рё]");
         local help = vargv[0].tostring();
-        if(isNumeric(help)) return sendPlayerMessage(playerid, "Доступные название:player [Основные команды],car [Команды для авто],key [Клавиши]");
+        if(isNumeric(help)) return sendPlayerMessage(playerid, "Р”РѕСЃС‚СѓРїРЅС‹Рµ РЅР°Р·РІР°РЅРёРµ:player [РћСЃРЅРѕРІРЅС‹Рµ РєРѕРјР°РЅРґС‹],car [РљРѕРјР°РЅРґС‹ РґР»СЏ Р°РІС‚Рѕ],key [РљР»Р°РІРёС€Рё]");
 		switch(help){
 		case "player":
         {
-        sendPlayerMessage(playerid, "================================Основные========================================================================",124,252,0);
-		sendPlayerMessage(playerid, "/stats узнать свою статистику /kill убить себя /skin id [от 0 до 154] сменить скин /tp телепорты /randomskin получить рандомный скин  ");
-		sendPlayerMessage(playerid, "/heal или /hp пополнить здоровье /gun id [от 1 до 22] взять оружие /reload зарядить оружие /veh id[от 0 до 54] взять авто  ");
-		sendPlayerMessage(playerid, "/randomveh взять рандомную машину /pm id текст,отправить личное сообщение игроку");
-		sendPlayerMessage(playerid, "================================Основные========================================================================",124,252,0);
+        sendPlayerMessage(playerid, "================================РћСЃРЅРѕРІРЅС‹Рµ========================================================================",124,252,0);
+		sendPlayerMessage(playerid, "/stats СѓР·РЅР°С‚СЊ СЃРІРѕСЋ СЃС‚Р°С‚РёСЃС‚РёРєСѓ /kill СѓР±РёС‚СЊ СЃРµР±СЏ /skin id [РѕС‚ 0 РґРѕ 154] СЃРјРµРЅРёС‚СЊ СЃРєРёРЅ /tp С‚РµР»РµРїРѕСЂС‚С‹ /randomskin РїРѕР»СѓС‡РёС‚СЊ СЂР°РЅРґРѕРјРЅС‹Р№ СЃРєРёРЅ  ");
+		sendPlayerMessage(playerid, "/heal РёР»Рё /hp РїРѕРїРѕР»РЅРёС‚СЊ Р·РґРѕСЂРѕРІСЊРµ /gun id [РѕС‚ 1 РґРѕ 22] РІР·СЏС‚СЊ РѕСЂСѓР¶РёРµ /reload Р·Р°СЂСЏРґРёС‚СЊ РѕСЂСѓР¶РёРµ /veh id[РѕС‚ 0 РґРѕ 54] РІР·СЏС‚СЊ Р°РІС‚Рѕ  ");
+		sendPlayerMessage(playerid, "/randomveh РІР·СЏС‚СЊ СЂР°РЅРґРѕРјРЅСѓСЋ РјР°С€РёРЅСѓ /pm id С‚РµРєСЃС‚,РѕС‚РїСЂР°РІРёС‚СЊ Р»РёС‡РЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ РёРіСЂРѕРєСѓ");
+		sendPlayerMessage(playerid, "================================РћСЃРЅРѕРІРЅС‹Рµ========================================================================",124,252,0);
         break;
 		}
         case "car":
         { 
-		sendPlayerMessage(playerid, "================================Команды в авто=====================================================================",124,252,0);
-		sendPlayerMessage(playerid, "/veh id[от 0 до 54] взять авто,/tune id  [от 0 до 3 установить уровень тюнинга на авто] /wheels id [от 0 до 18] сменить колёса ");
-		sendPlayerMessage(playerid, "/colorcar 1цвет 2цвет [сменить цвет авто пример /colorcar 0 0] /randomwheels [получить рандомные колёса ] ");
-		sendPlayerMessage(playerid, "/fix или /hp [Починить авто] /wash помыть авто /carpass посмотреть документы на авто /dirty запачкать авто ");
-		sendPlayerMessage(playerid, "/siren включить сирену /color сменить цвет авто в rgb");
-		sendPlayerMessage(playerid, "================================Команды в авто=====================================================================",124,252,0);
+		sendPlayerMessage(playerid, "================================РљРѕРјР°РЅРґС‹ РІ Р°РІС‚Рѕ=====================================================================",124,252,0);
+		sendPlayerMessage(playerid, "/veh id[РѕС‚ 0 РґРѕ 54] РІР·СЏС‚СЊ Р°РІС‚Рѕ,/tune id  [РѕС‚ 0 РґРѕ 3 СѓСЃС‚Р°РЅРѕРІРёС‚СЊ СѓСЂРѕРІРµРЅСЊ С‚СЋРЅРёРЅРіР° РЅР° Р°РІС‚Рѕ] /wheels id [РѕС‚ 0 РґРѕ 18] СЃРјРµРЅРёС‚СЊ РєРѕР»С‘СЃР° ");
+		sendPlayerMessage(playerid, "/colorcar 1С†РІРµС‚ 2С†РІРµС‚ [СЃРјРµРЅРёС‚СЊ С†РІРµС‚ Р°РІС‚Рѕ РїСЂРёРјРµСЂ /colorcar 0 0] /randomwheels [РїРѕР»СѓС‡РёС‚СЊ СЂР°РЅРґРѕРјРЅС‹Рµ РєРѕР»С‘СЃР° ] ");
+		sendPlayerMessage(playerid, "/fix РёР»Рё /hp [РџРѕС‡РёРЅРёС‚СЊ Р°РІС‚Рѕ] /wash РїРѕРјС‹С‚СЊ Р°РІС‚Рѕ /carpass РїРѕСЃРјРѕС‚СЂРµС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹ РЅР° Р°РІС‚Рѕ /dirty Р·Р°РїР°С‡РєР°С‚СЊ Р°РІС‚Рѕ ");
+		sendPlayerMessage(playerid, "/siren РІРєР»СЋС‡РёС‚СЊ СЃРёСЂРµРЅСѓ /color СЃРјРµРЅРёС‚СЊ С†РІРµС‚ Р°РІС‚Рѕ РІ rgb");
+		sendPlayerMessage(playerid, "================================РљРѕРјР°РЅРґС‹ РІ Р°РІС‚Рѕ=====================================================================",124,252,0);
         break;
 		}
 		case "key":
         { 
-		sendPlayerMessage(playerid, "================================Клавиши=======================================",124,252,0);
-		sendPlayerMessage(playerid, "F1: [Посмотреть список и иды всех авто] F5:[Починить транспорт] ");
-		sendPlayerMessage(playerid, "================================Клавиши=======================================",124,252,0);
+		sendPlayerMessage(playerid, "================================РљР»Р°РІРёС€Рё=======================================",124,252,0);
+		sendPlayerMessage(playerid, "F1: [РџРѕСЃРјРѕС‚СЂРµС‚СЊ СЃРїРёСЃРѕРє Рё РёРґС‹ РІСЃРµС… Р°РІС‚Рѕ] F5:[РџРѕС‡РёРЅРёС‚СЊ С‚СЂР°РЅСЃРїРѕСЂС‚] ");
+		sendPlayerMessage(playerid, "================================РљР»Р°РІРёС€Рё=======================================",124,252,0);
         break;
 		}
      }
@@ -686,15 +686,15 @@ addCommandHandler( "colorcar",
     function( playerid, ... )
     {
 	    log(""+getPlayerName( playerid )+"start cmd colorcar");
-        if( !isPlayerInVehicle( playerid ) ) return  sendPlayerMessage( playerid, "Вы должны быть в авто." );
-        if(vargv.len() != 2) return sendPlayerMessage( playerid, "/colorcar 1 цвет 2 цвет [цвета могут быть от 1 до 39] Пример: /colorcar 1 1 " ); 
+        if( !isPlayerInVehicle( playerid ) ) return  sendPlayerMessage( playerid, "Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ Р°РІС‚Рѕ." );
+        if(vargv.len() != 2) return sendPlayerMessage( playerid, "/colorcar 1 С†РІРµС‚ 2 С†РІРµС‚ [С†РІРµС‚Р° РјРѕРіСѓС‚ Р±С‹С‚СЊ РѕС‚ 1 РґРѕ 39] РџСЂРёРјРµСЂ: /colorcar 1 1 " ); 
 		local color1 = vargv[0].tostring();
         local color2 = vargv[1].tostring();
-		if( !isNumeric(color1) && !isNumeric(color2)) return sendPlayerMessage( playerid, "Только цифры",255,0,0); 
-        if(color1.tointeger() < 0 || color1.tointeger() > 39 && color2.tointeger() < 0 || color2.tointeger() > 39) return sendPlayerMessage( playerid, "[Ошибка] ид авто может быть от 0 до 39",255,0,0);
+		if( !isNumeric(color1) && !isNumeric(color2)) return sendPlayerMessage( playerid, "РўРѕР»СЊРєРѕ С†РёС„СЂС‹",255,0,0); 
+        if(color1.tointeger() < 0 || color1.tointeger() > 39 && color2.tointeger() < 0 || color2.tointeger() > 39) return sendPlayerMessage( playerid, "[РћС€РёР±РєР°] РёРґ Р°РІС‚Рѕ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕС‚ 0 РґРѕ 39",255,0,0);
 		local vehicleid = getPlayerVehicle( playerid );
         setVehicleColour( vehicleid, vehicleColor[color1.tointeger()][0], vehicleColor[color1.tointeger()][1], vehicleColor[color1.tointeger()][2], vehicleColor[color2.tointeger()][0], vehicleColor[color2.tointeger()][1], vehicleColor[color2.tointeger()][2] );            
-        sendPlayerMessage( playerid, "Вы сменили цвет авто "+ vehicleColor[color1.tointeger()][3] + " 2 цвет на " + vehicleColor[color2.tointeger()][3]);  
+        sendPlayerMessage( playerid, "Р’С‹ СЃРјРµРЅРёР»Рё С†РІРµС‚ Р°РІС‚Рѕ "+ vehicleColor[color1.tointeger()][3] + " 2 С†РІРµС‚ РЅР° " + vehicleColor[color2.tointeger()][3]);  
         log(""+getPlayerName( playerid )+"end cmd colorcar");
 	   return 1;
 	}
@@ -704,18 +704,18 @@ addCommandHandler( "color",
 function( playerid, ... )
 {   
     log(""+getPlayerName( playerid )+" start cmd color");
-    if(vargv.len() != 6) return sendPlayerMessage(playerid," Используйте: /color [RGB].");
+    if(vargv.len() != 6) return sendPlayerMessage(playerid," РСЃРїРѕР»СЊР·СѓР№С‚Рµ: /color [RGB].");
     local r1 = vargv[0].tointeger(); 
     local g1 = vargv[1].tointeger(); 
     local b1 = vargv[2].tointeger(); 
     local r2 = vargv[3].tointeger(); 
     local g2 = vargv[4].tointeger(); 
     local b2 = vargv[5].tointeger();   
-    if( !isPlayerInVehicle( playerid )) return sendPlayerMessage( playerid, "Вы должны быть в авто.",255,0,0 );
-    if( !isNumeric(r1) ||  !isNumeric(r2) ||  !isNumeric(g1) ||  !isNumeric(g2) ||  !isNumeric(b1) ||  !isNumeric(b2)) return sendPlayerMessage( playerid, "Используйте /color [RGB]",255,0,0 );
+    if( !isPlayerInVehicle( playerid )) return sendPlayerMessage( playerid, "Р’С‹ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІ Р°РІС‚Рѕ.",255,0,0 );
+    if( !isNumeric(r1) ||  !isNumeric(r2) ||  !isNumeric(g1) ||  !isNumeric(g2) ||  !isNumeric(b1) ||  !isNumeric(b2)) return sendPlayerMessage( playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ /color [RGB]",255,0,0 );
     local vehicleid = getPlayerVehicle( playerid );
     setVehicleColour(vehicleid, r1.tointeger(), g1.tointeger(), b1.tointeger(), r2.tointeger(), g2.tointeger(), b2.tointeger());
-    sendPlayerMessage( playerid, "Вы сменили цвет авто" ,124,252,0);
+    sendPlayerMessage( playerid, "Р’С‹ СЃРјРµРЅРёР»Рё С†РІРµС‚ Р°РІС‚Рѕ" ,124,252,0);
 
     log(""+getPlayerName( playerid )+" end cmd color");
      return 1;
@@ -726,7 +726,7 @@ function( playerid )
 {   log(""+getPlayerName( playerid )+" start cmd reload");
     local id = getPlayerWeapon(playerid);
     givePlayerWeapon(playerid, id.tointeger(), 200 );
-    sendPlayerMessage(playerid "Теперь ваше оружие полное !");
+    sendPlayerMessage(playerid "РўРµРїРµСЂСЊ РІР°С€Рµ РѕСЂСѓР¶РёРµ РїРѕР»РЅРѕРµ !");
     log(""+getPlayerName( playerid )+" end cmd reload");
      return 1;
 	 }
@@ -735,12 +735,12 @@ addCommandHandler( "gun",
 function( playerid, ... )
 {   
      log(""+getPlayerName( playerid )+"start cmd gun");
-    if(vargv.len() != 1) return sendPlayerMessage(playerid, " Используйте /gun [ID] от 1 до 22 .",255,0,0);
+    if(vargv.len() != 1) return sendPlayerMessage(playerid, " РСЃРїРѕР»СЊР·СѓР№С‚Рµ /gun [ID] РѕС‚ 1 РґРѕ 22 .",255,0,0);
     local id = vargv[0].tostring();   
-    if(!isNumeric(id)) return sendPlayerMessage(playerid, " Используйте /gun [ID] от 1 до 22 .",255,0,0);
-	if(id.tointeger() < 2 || id.tointeger() > 21) return sendPlayerMessage(playerid, " Используйте /gun [ID] от 2 до 22 .",255,0,0);
+    if(!isNumeric(id)) return sendPlayerMessage(playerid, " РСЃРїРѕР»СЊР·СѓР№С‚Рµ /gun [ID] РѕС‚ 1 РґРѕ 22 .",255,0,0);
+	if(id.tointeger() < 2 || id.tointeger() > 21) return sendPlayerMessage(playerid, " РСЃРїРѕР»СЊР·СѓР№С‚Рµ /gun [ID] РѕС‚ 2 РґРѕ 22 .",255,0,0);
     givePlayerWeapon(playerid, id.tointeger(), 999 );  
-    sendPlayerMessage(playerid, " Вы взяли оружие ID: "+id.tointeger()+"" ,124,252,0);
+    sendPlayerMessage(playerid, " Р’С‹ РІР·СЏР»Рё РѕСЂСѓР¶РёРµ ID: "+id.tointeger()+"" ,124,252,0);
     log(""+getPlayerName( playerid )+"end cmd gun");
     return 1;	
 }
@@ -759,7 +759,7 @@ return 1;
 }
 function vehicleExit( playerid, veh,seat) 
 {     log(""+getPlayerName( playerid )+" start vehicleExit");
-      sendPlayerMessage( playerid, "Команды сервера /help" ); 
+      sendPlayerMessage( playerid, "РљРѕРјР°РЅРґС‹ СЃРµСЂРІРµСЂР° /help" ); 
       InvalidCars[veh] = 1;   
        if (veh <= vehInfosLength) {
         vehInfos[veh][7] = false;
@@ -771,7 +771,7 @@ addEventHandler( "onPlayerVehicleExit", vehicleExit );
 
 function vehicleEnter( playerid, veh, seat ) 
 {    log(""+getPlayerName( playerid )+" start vehicleEnter");
-      sendPlayerMessage( playerid, "Команды авто./help car" ); 
+      sendPlayerMessage( playerid, "РљРѕРјР°РЅРґС‹ Р°РІС‚Рѕ./help car" ); 
       InvalidCars[veh] = 2;   
         if (veh <= vehInfosLength) {
        vehInfos[veh][7] = true;
@@ -786,8 +786,8 @@ RekLamaCount ++;
 if (RekLamaCount == 4)
 {
 sendPlayerMessageToAll( "========================================HELP==========================================",255,165,0 );
-sendPlayerMessageToAll( "Что бы узнать команды сервера используйте /help player , /help car , /help key ",255,165,0 );
-sendPlayerMessageToAll( "Группа сервера в ВК: vk.com/mafia2serv",255,165,0);
+sendPlayerMessageToAll( "Р§С‚Рѕ Р±С‹ СѓР·РЅР°С‚СЊ РєРѕРјР°РЅРґС‹ СЃРµСЂРІРµСЂР° РёСЃРїРѕР»СЊР·СѓР№С‚Рµ /help player , /help car , /help key ",255,165,0 );
+sendPlayerMessageToAll( "Р“СЂСѓРїРїР° СЃРµСЂРІРµСЂР° РІ Р’Рљ: vk.com/mafia2serv",255,165,0);
 sendPlayerMessageToAll( "========================================HELP==========================================",255,165,0 );
 RekLamaCount = 0;
 return 1;
@@ -803,7 +803,7 @@ if (isPlayerConnected(i) && isPlayerSpawned(i))
 if(players[i].SpawnCars == 1)
 {
 players[i].SpawnCars = 0;
-sendPlayerMessage( i, "Теперь вы можете взять авто" ,205,0,0);
+sendPlayerMessage( i, "РўРµРїРµСЂСЊ РІС‹ РјРѕР¶РµС‚Рµ РІР·СЏС‚СЊ Р°РІС‚Рѕ" ,205,0,0);
 }
 }
 return 1;
@@ -814,11 +814,11 @@ RespCarCount ++;
 DelCarCount ++;
 if(RespCarCount == 6){
 	respcar();
-    sendPlayerMessageToAll("Не занятый транспорт заспавнен" ); 
+    sendPlayerMessageToAll("РќРµ Р·Р°РЅСЏС‚С‹Р№ С‚СЂР°РЅСЃРїРѕСЂС‚ Р·Р°СЃРїР°РІРЅРµРЅ" ); 
     RespCarCount = 0;}
 if(DelCarCount == 30){
 	DelCars();
-    sendPlayerMessageToAll("Не занятый транспорт удален" ); 
+    sendPlayerMessageToAll("РќРµ Р·Р°РЅСЏС‚С‹Р№ С‚СЂР°РЅСЃРїРѕСЂС‚ СѓРґР°Р»РµРЅ" ); 
     DelCarCount = 0;}
    
    Reklama ();
@@ -885,7 +885,7 @@ function isPlayerAdmin ( playerid )
 		return 0;
 
 }
-//=======================================================Админ команды==========================================================================================
+//=======================================================РђРґРјРёРЅ РєРѕРјР°РЅРґС‹==========================================================================================
 function scriptError( type, line, column, error )
 {
 	log( "Script Error: Type: " + type + ", Line: " + line + ", Column: " + column + ", Error: " + error );
@@ -903,13 +903,13 @@ function( playerid)
 {
 //if (!isPlayerAdmin(playerid)) return 1;
 //DelCars();
-sendPlayerMessage( playerid, "Тест цвета1." ,175,175,175); 
-sendPlayerMessage( playerid, "Тест цвета2." ,255,211,155);
-sendPlayerMessage( playerid, "Тест цвета3." ,0,100,0);
-sendPlayerMessage( playerid, "Тест цвета4." ,124,252,0);
-sendPlayerMessage( playerid, "Тест цвета5." ,255,246,143);
-sendPlayerMessage( playerid, "Тест цвета6." ,255,0,0);
-sendPlayerMessage( playerid, "Тест цвета7." ,205,0,0);
+sendPlayerMessage( playerid, "РўРµСЃС‚ С†РІРµС‚Р°1." ,175,175,175); 
+sendPlayerMessage( playerid, "РўРµСЃС‚ С†РІРµС‚Р°2." ,255,211,155);
+sendPlayerMessage( playerid, "РўРµСЃС‚ С†РІРµС‚Р°3." ,0,100,0);
+sendPlayerMessage( playerid, "РўРµСЃС‚ С†РІРµС‚Р°4." ,124,252,0);
+sendPlayerMessage( playerid, "РўРµСЃС‚ С†РІРµС‚Р°5." ,255,246,143);
+sendPlayerMessage( playerid, "РўРµСЃС‚ С†РІРµС‚Р°6." ,255,0,0);
+sendPlayerMessage( playerid, "РўРµСЃС‚ С†РІРµС‚Р°7." ,205,0,0);
 log(""+getPlayerSerial(playerid)+"");
 return 1;
 }
@@ -921,7 +921,7 @@ if (!isPlayerAdmin(playerid)) return 1;
  if ((getPlayerSerial(playerid) == "7B650A1A5BFF62630662D5AC5AD02828")) return 1;
 DelCars();
 respcar();
-sendPlayerMessageToAll("Пустые авто удалены" );
+sendPlayerMessageToAll("РџСѓСЃС‚С‹Рµ Р°РІС‚Рѕ СѓРґР°Р»РµРЅС‹" );
 return 1;
 }
 );
@@ -931,7 +931,7 @@ function( playerid, id )
 if (!isPlayerAdmin(playerid)) return 1;
 local pos = getPlayerPosition(id.tointeger());
 setPlayerPosition(playerid, (pos[0]+1).tofloat(), (pos[1]+1).tofloat(), (pos[2]).tofloat());
-sendPlayerMessage( playerid, "Вы переместились к игроку." ); 
+sendPlayerMessage( playerid, "Р’С‹ РїРµСЂРµРјРµСЃС‚РёР»РёСЃСЊ Рє РёРіСЂРѕРєСѓ." ); 
 }
 );
 addCommandHandler( "get",
@@ -940,18 +940,18 @@ function( playerid, id )
 if (!isPlayerAdmin(playerid)) return 1;
 local pos = getPlayerPosition(playerid.tointeger());
 setPlayerPosition(id.tointeger(), (pos[0]+1).tofloat(), (pos[1]+1).tofloat(), (pos[2]).tofloat());
-sendPlayerMessage( id.tointeger(), "Вы были телепортированы администратором Criminal_America." ); 
+sendPlayerMessage( id.tointeger(), "Р’С‹ Р±С‹Р»Рё С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°РЅС‹ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂРѕРј Criminal_America." ); 
 }
 );//getPlayerName(playerid)
 addCommandHandler( "kick",
 function( playerid, ...)
 {
 if (!isPlayerAdmin(playerid)) return 1;
-if(vargv.len() != 1) return sendPlayerMessage(playerid, "Используйте: /kick id [0-20] ");
+if(vargv.len() != 1) return sendPlayerMessage(playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ: /kick id [0-20] ");
 local id = vargv[0].tostring();
-if(!isNumeric(id)) return sendPlayerMessage(playerid, "Только цифры");
+if(!isNumeric(id)) return sendPlayerMessage(playerid, "РўРѕР»СЊРєРѕ С†РёС„СЂС‹");
 if (!isPlayerSpawned(playerid)) return 1;
-sendPlayerMessage(playerid, "Игрок кикнут");
+sendPlayerMessage(playerid, "РРіСЂРѕРє РєРёРєРЅСѓС‚");
 kickPlayer(id.tointeger());
 return 1;
 }
@@ -961,9 +961,9 @@ function( playerid, ... )
 {
 if (!isPlayerAdmin(playerid)) return 1;
 if ((getPlayerSerial(playerid) == "7B650A1A5BFF62630662D5AC5AD02828")) return 1;
-if(vargv.len() != 1) return sendPlayerMessage(playerid, "Используйте: /ban id [0-20] ");
+if(vargv.len() != 1) return sendPlayerMessage(playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ: /ban id [0-20] ");
 local id = vargv[0].tostring();
-if(!isNumeric(id)) return sendPlayerMessage(playerid, "Только цифры");
+if(!isNumeric(id)) return sendPlayerMessage(playerid, "РўРѕР»СЊРєРѕ С†РёС„СЂС‹");
 banSerial( getPlayerSerial(id.tointeger()),id.tointeger(), 300000000, "ban" );
 kickPlayer( id.tointeger() );
 return 1;
@@ -976,7 +976,7 @@ function( playerid )
 if (!isPlayerAdmin(playerid)) return 1;  
 for( local i = 0; i <= 10; ++i ){
 sendPlayerMessageToAll( " " );}
-sendPlayerMessageToAll( "Общий чат был отчищен администратором!" );
+sendPlayerMessageToAll( "РћР±С‰РёР№ С‡Р°С‚ Р±С‹Р» РѕС‚С‡РёС‰РµРЅ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂРѕРј!" );
 return 1;
 }
 );
@@ -984,20 +984,20 @@ addCommandHandler("starttime",function( playerid ) {
 if (!isPlayerAdmin(playerid)) return 1;  
 if ((getPlayerSerial(playerid) == "7B650A1A5BFF62630662D5AC5AD02828")) return 1;
 secTimers = timer(secTimer,60*2000, -1);
-sendPlayerMessage(playerid, "Таймер запущен");
+sendPlayerMessage(playerid, "РўР°Р№РјРµСЂ Р·Р°РїСѓС‰РµРЅ");
 return 1;});
 addCommandHandler("killtime",function( playerid ) {
 if (!isPlayerAdmin(playerid)) return 1;  
 if ((getPlayerSerial(playerid) == "7B650A1A5BFF62630662D5AC5AD02828")) return 1;
 secTimers.Kill( );
-sendPlayerMessage(playerid, "АПАСНОСТЬ АПВА ТАЙМЕР УБИТ НЕ ДВИГАЙСЯ А ТО ТЛЕН");
+sendPlayerMessage(playerid, "РђРџРђРЎРќРћРЎРўР¬ РђРџР’Рђ РўРђР™РњР•Р  РЈР‘РРў РќР• Р”Р’РР“РђР™РЎРЇ Рђ РўРћ РўР›Р•Рќ");
 return 1;});
 addCommandHandler( "settime",function( playerid, ...  ){
 if (!isPlayerAdmin(playerid)) return 1;
 if ((getPlayerSerial(playerid) == "7B650A1A5BFF62630662D5AC5AD02828")) return 1;
-if(vargv.len() != 1) return sendPlayerMessage(playerid, "Используйте: /settime время [0-23] ");
+if(vargv.len() != 1) return sendPlayerMessage(playerid, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ: /settime РІСЂРµРјСЏ [0-23] ");
 local time = vargv[0].tostring();
-if(!isNumeric(time)) return sendPlayerMessage(playerid, "Только цифры");
+if(!isNumeric(time)) return sendPlayerMessage(playerid, "РўРѕР»СЊРєРѕ С†РёС„СЂС‹");
 globalhours = time.tointeger();
 changeWeather();
 return 1;});
@@ -1006,6 +1006,6 @@ addCommandHandler( "unlock",
 function( playerid )
 {
     togglePlayerControls ( playerid, true );
-    sendPlayerMessage(playerid, "Не мороси", 25, 135, 235 );
+    sendPlayerMessage(playerid, "РќРµ РјРѕСЂРѕСЃРё", 25, 135, 235 );
 }
 );
